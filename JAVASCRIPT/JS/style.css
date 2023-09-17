@@ -1,0 +1,92 @@
+html,body{
+    margin:0;
+    height:100%;
+
+}
+#nav{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:15px;
+}
+
+#nav a {
+  margin-right:20px;
+}
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+#nav a.topimage{
+    width:20px;
+    height:20px;
+    background-color:rgb(0, 255, 42);
+    border-radius:10px;
+}
+
+#middle{
+    flex-grow:1;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    text-align: center;
+    width:auto;
+    height:auto;
+}
+
+#searchbarcontainer{
+
+    text-align:center;
+    margin-top: 20px;
+
+}
+
+#searchbar{
+    padding-top:10px;
+    padding-bottom:10px;
+    outline:0;
+    width:550px;
+    border-radius:15px;
+    border:2px solid #eeeeeeee;
+}
+
+#searchbar:hover{
+    box-shadow:0 0 10px 2px black;
+}
+
+#buttons{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+}
+
+.botton{
+    margin-left:10px;
+    margin-right:10px;
+    padding:10px 5px;
+    cursor:pointer;
+    border-radius:3px;
+    background:#f4f4f5ee;
+}
+
+#links{
+    margin-top:15px;
+    text-align:center;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+#footer-content{
+    background:#eeeeeeee;
+    border-top:1px solid black;
+}
